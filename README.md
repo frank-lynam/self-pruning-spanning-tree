@@ -7,7 +7,7 @@ The idea is to just run two spanning trees. The first starts at all the source n
 
 ## Background
 
-I came up with this algorithm to solve a few different problems a few times. My previous employer said it wasn't worth copywriting or patenting or whatever, and I ended up needing it again at my new job, so I decided to put it out there in case someone else needs it.
+I came up with this algorithm to solve a few different problems a few times. My previous employer said it wasn't worth copywriting or patenting or whatever when we released [some code with it](https://github.com/mitre/trace) while I worked there, and I ended up needing it again at my new job, so I decided to put it out there in case someone else needs it.
 
 I'm sure there are fancy ways to measure performance, but I found it not only gave me the answer to "are these nodes connected to these other nodes" faster than anything I could find in popular graph theory libraries, but it also gave me a complete connectivity subgraph as a side-effect. Which is handy for situations where you care about everything that could be between two sets of points.
 
